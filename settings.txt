@@ -1,0 +1,20 @@
+VCVARS=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsall.bat
+SRC=./src/C11.c
+
+되어있는거 : 
+vs 빌드 환경 적용
+엔트리포인트 지정
+빌드 실패나 경고 뜨면 에러 출력
+빌드 모드 선택 (기본, debug, release)
+빌드 후 실행파일 자동 실행
+
+하고싶은거 : 
+빌드타입 exe, dll 등 추가
+inc, lib 로 외부 라이브러리 받아오기
+c언어 버전 사용자 정의
+각 폴더명 직접 지정 가능하도록
+엔트리 포인트 추론? 
+경로 기반 자동 빌드
+VCVARS 경로 자동 탐색
+빌드만 할 수도 있게 모드 분리
+obj 빌드 캐시 활용 (재빌드 최소화)
